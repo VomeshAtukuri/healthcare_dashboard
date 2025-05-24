@@ -5,7 +5,7 @@
 }
 
 .health-card {
-  background-color: #ffffff;
+  background-color: #e5ebfa;
   border-radius: 20px;
   padding: 16px 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -19,12 +19,12 @@
   align-items: center;
   gap: 10px;
   font-size: 16px;
-  font-weight: 600;
-  color: #333333;
+  font-weight: 800;
+  color: #14366c;
 }
 
 .emoji {
-  font-size: 22px;
+  font-size: 38px;
 }
 
 .date {
@@ -44,4 +44,12 @@
   height: 100%;
   border-radius: 10px;
   transition: width 0.4s ease;
+}
+
+.view-all-button {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  color: #14366c;
+  cursor: pointer;
 }

@@ -19,6 +19,10 @@ export function Activity() {
                     className={`chart-bar ${index % 2 === 0 ? "purple" : "teal"}`}
                     style={{ height: `${Math.random() * 50 + 20}px` }}
                   ></div>
+                  <div
+                    className={`chart-bar ${index % 2 === 0 ? "purple" : "teal"}`}
+                    style={{ height: `${Math.random() * 50 + 20}px` }}
+                  ></div>
                 </div>
                 <div className="chart-day-label">{["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"][index]}</div>
               </div>

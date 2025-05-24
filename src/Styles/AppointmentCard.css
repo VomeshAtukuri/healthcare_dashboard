@@ -1,0 +1,41 @@
+.appointment-card {
+  padding: 16px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.appointment-card.purple{
+    background-color: #3530a6;
+    color: white;
+}
+
+.appointment-card.blue{
+    background-color: #e0e7ff;
+    color: #374151;
+}
+
+.appointment_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.appointment-type {
+  font-size: 14px;
+  font-weight: 800;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.appointment-time {
+  font-size: 18px;
+}
+
+.appointment-doctor {
+  font-size: 13px;
+}

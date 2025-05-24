@@ -1,0 +1,34 @@
+.upcomingcard {
+  background-color: #e0e7ff;
+  padding: 16px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.upcoming_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.upcoming-type {
+  font-size: 14px;
+  font-weight: 800;
+  color: #14366c;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.upcoming-time {
+  font-size: 18px;
+}
+
+.upcoming-doctor {
+  font-size: 13px;
+  color: #333;
+}

@@ -24,6 +24,7 @@ function HealthStatusCards() {
           </div>
         </div>
       ))}
+      <div className="view-all-button">Details →</div>
     </div>
   );
 }

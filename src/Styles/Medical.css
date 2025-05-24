@@ -1,0 +1,163 @@
+.medical-scheduler {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5faff;
+  min-height: 90vh;
+  border-radius: 0 20px 20px 0;
+}
+
+.header {
+  display: flex;
+  justify-self: end;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background:  #00a8cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.add-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background: #3630a6;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.month-year {
+  font-size: 15px;
+  font-weight: 600;
+  color: #3630a6;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.calendar-day {
+  text-align: center;
+}
+
+.day-header {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.date-number {
+  font-size: 18px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 10px;
+}
+
+.time-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.time-slot {
+  padding: 4px 6px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.time-slot.available {
+  background-color: #f3f4f6;
+  color: #6b7280;
+}
+
+.time-slot.selected {
+  background-color: #3630a6;
+  color: white;
+}
+
+.time-slot.booked {
+  background-color: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.appointments-section {
+  margin-bottom: 20px;
+}
+
+.appointments-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.upcoming-section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color:#14366c;
+  margin-bottom: 20px;
+}
+
+.day-section {
+  margin-bottom: 20px;
+}
+
+.day-title {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.upcoming-appointments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
