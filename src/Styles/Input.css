@@ -1,0 +1,43 @@
+.inputContainer {
+  position: relative;
+  width: 100%;
+}
+
+.searchBar {
+  width: 100%;
+  padding: 10px 40px; /* left + right padding for icons */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s ease;
+  border-radius: 10px;
+}
+
+.searchBar:focus {
+  border-color: #007bff;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  transition: color 0.2s ease;
+}
+
+.icon:hover {
+  color: #555;
+}
+
+.searchIcon {
+  left: 10px;
+}
+
+.bellIcon {
+  right: 10px;
+}
