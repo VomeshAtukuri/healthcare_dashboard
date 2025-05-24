@@ -1,7 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
 body {
-  min-width: 320px;
-  min-height: 90vh;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  font-family: 'Poppins', 'Nunito', sans-serif;
+  color: #0b2c49;
 }
 
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.sidebar-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0b2c49;
+}
+
+.nav-heading {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #7d8597;
+}
+
+.nav-item {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0b2c49;
+}
+
+.small-label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7d8597;
+}
+
+.appointment-time {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0b2c49;
+}
+
+.activity-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0b2c49;
+}
