@@ -1,30 +1,13 @@
-/* App.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
   font-family: 'Poppins', 'Nunito', sans-serif;
-  background-color: #f4f7fb;
+  background-color: white;
 }
 
 .app-container {
   display: flex;
   height: 100vh;
-}
-
-
-.middle-main {
-  width: 50%;
-  padding: 2rem;
-  background-color: #f4f7fb;
-  overflow-y: auto;
-}
-
-.medical {
-  width: 32%;
-  padding: 2rem;
-  background-color: #ffffff;
-  border-left: 1px solid #e6e6e6;
-  overflow-y: auto;
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.03);
+  gap: 10px;
 }

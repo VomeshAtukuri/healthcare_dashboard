@@ -7,9 +7,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60%; /* Fill parent height */
+  height: 400px;
   min-height: 0;
 }
+
 .anatomy-image {
   position: relative;
   width: 260px;
@@ -44,7 +45,9 @@
 .bottom-left {
   bottom: 80px;
   left: -20px;
-  background-color: #00c897;
+  background-color: #00c4ff;
+  color: #3630a6;
+  font-weight: 600;
 }
 
 

@@ -1,16 +1,17 @@
-.health-cards {
+/* .health-cards {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  height: 60%;
-  min-height: 0;
+  gap: 12px;
+  height: 380px;
+  padding: 20px;
+  background-color: red;
   justify-content: space-between;
 }
 
 .health-card {
   background-color: #e5ebfa;
   border-radius: 20px;
-  padding: 15px 10px; 
+  padding: 10px; 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
@@ -56,4 +57,70 @@
   color: #14366c;
   cursor: pointer;
 }
+ */
 
+.health-cards {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+}
+
+.card-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between; /* Key to distribute space */
+}
+
+.health-card {
+  background-color: #e5ebfa;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #14366c;
+}
+
+.emoji {
+  font-size: 38px;
+}
+
+.date {
+  font-size: 14px;
+  color: #888888;
+  margin: 0;
+}
+
+.status-bar {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.status-fill {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+.view-all-button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  color: #14366c;
+  cursor: pointer;
+}
