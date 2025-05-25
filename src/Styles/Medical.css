@@ -9,10 +9,9 @@
 
 .header {
   display: flex;
-  justify-self: end;
+  align-self: flex-end;
   gap: 12px;
-  align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .user-avatar {
@@ -44,7 +43,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .month-year {
@@ -72,7 +71,7 @@
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .calendar-day {
@@ -82,7 +81,7 @@
 .day-header {
   font-size: 12px;
   color: #9ca3af;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   font-weight: 500;
 }
 
@@ -90,7 +89,7 @@
   font-size: 18px;
   font-weight: 600;
   color: #374151;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .time-slots {
@@ -125,7 +124,7 @@
 }
 
 .appointments-section {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .appointments-grid {
@@ -134,25 +133,21 @@
   gap: 15px;
 }
 
-.upcoming-section {
-  margin-bottom: 30px;
-}
-
 .section-title {
   font-size: 20px;
   font-weight: 600;
   color:#14366c;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .day-section {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .day-title {
   font-size: 15px;
   color: #6b7280;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   font-weight: 500;
 }
 

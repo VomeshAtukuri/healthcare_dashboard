@@ -2,12 +2,15 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  height: 60%;
+  min-height: 0;
+  justify-content: space-between;
 }
 
 .health-card {
   background-color: #e5ebfa;
   border-radius: 20px;
-  padding: 16px 20px;
+  padding: 15px 10px; 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
@@ -53,3 +56,4 @@
   color: #14366c;
   cursor: pointer;
 }
+
