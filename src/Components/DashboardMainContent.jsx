@@ -19,9 +19,7 @@ function DashboardMainContent() {
         <AnatomySection />
         <HealthStatusCards />
       </div>
-      <div className="bottom-section">
-        <Activity />
-      </div>
+      <Activity />
     </main>
   );
 }

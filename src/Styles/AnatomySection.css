@@ -1,5 +1,5 @@
 .anatomy-card {
-  background-color: #e5ebfa;
+  background-color: #f5faff;
   border-radius: 20px;
   padding: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -7,14 +7,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
   min-height: 0;
 }
 
 .anatomy-image {
   position: relative;
-  width: 260px;
-  height: 380px;
+  height: 360px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,13 +36,13 @@
 
 .top-right {
   top: 60px;
-  right: -40px;
+  right: -60px;
   background-color: #3630a6;
 }
 
 .bottom-left {
-  bottom: 80px;
-  left: -20px;
+  bottom: 90px;
+  left: -60px;
   background-color: #00c4ff;
   color: #3630a6;
   font-weight: 600;

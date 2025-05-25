@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 10px;
   padding: 10px;
-  overflow-y: auto;
 }
 
 .top-section {
@@ -51,6 +50,7 @@
 .middle-section {
   display: flex;
   gap: 50px;
+  height: 420px;
 }
 
 .anatomy-card {
