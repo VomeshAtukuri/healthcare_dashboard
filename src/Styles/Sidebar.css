@@ -1,13 +1,16 @@
 .sidebar {
-  width: 200px;
+  width: 220px;
   padding: 24px 20px;
   background-color: #f5faff;
   display: flex;
   flex-direction: column;
-  border-radius: 20px 0 0 20px;
   justify-content: space-between;
+  border-radius: 20px 0 0 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  z-index: 1200;
 }
+
 
 .sidebar-title {
   font-size: 24px;
@@ -20,6 +23,7 @@
   color: #3060a6;
 }
 
+
 .nav-section {
   margin-bottom: 40px;
 }
@@ -31,6 +35,7 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+
 
 .nav-list {
   list-style: none;
@@ -55,6 +60,7 @@
   padding-left: 8px;
 }
 
+
 .nav-icon {
   width: 20px;
   height: 20px;
@@ -65,8 +71,51 @@
   border-top: 1px solid #e1e6ec;
 }
 
+.sidebar-toggle-button {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1100;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.close-icon {
+  cursor: pointer;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1150;
+}
+
 @media screen and (max-width: 768px) {
   .sidebar {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    border-radius: 0 20px 20px 0;
+    overflow-y: auto;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sidebar-toggle-button {
+    display: block;
   }
 }
+

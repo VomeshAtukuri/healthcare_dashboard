@@ -7,7 +7,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 0;
 }
 
 .anatomy-image {
@@ -48,4 +47,35 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
+  .anatomy-card {
+    padding: 10px;
+    max-width: 97%;
+  }
 
+  .anatomy-image {
+    height: 300px;
+  }
+
+  .label {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .top-right {
+    top: 50px;
+    right: -50px;
+  }
+
+  .bottom-left {
+    bottom: 60px;
+    left: -40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .anatomy-card {
+    padding: 8px;
+    max-width: 96%;
+  }  
+}
