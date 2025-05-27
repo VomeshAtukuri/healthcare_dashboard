@@ -11,7 +11,6 @@
 
 .anatomy-image {
   position: relative;
-  height: 360px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,28 +18,28 @@
 
 .anatomy-image img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 60%;
   object-fit: contain;
 }
 
 .label {
   position: absolute;
-  padding: 6px 14px;
-  border-radius: 10px;
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
+  background-color: #3630a6;
+  border-radius: 10px;
+  padding: 6px 14px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .top-right {
-  top: 60px;
+  top: 200px;
   right: -60px;
-  background-color: #3630a6;
 }
 
 .bottom-left {
-  bottom: 90px;
+  bottom: 200px;
   left: -60px;
   background-color: #00c4ff;
   color: #3630a6;
@@ -54,7 +53,7 @@
   }
 
   .anatomy-image {
-    height: 300px;
+    height: 500px;
   }
 
   .label {
@@ -63,12 +62,12 @@
   }
 
   .top-right {
-    top: 50px;
+    top: 150px;
     right: -50px;
   }
 
   .bottom-left {
-    bottom: 60px;
+    bottom: 170px;
     left: -40px;
   }
 }

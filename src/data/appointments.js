@@ -7,7 +7,11 @@ export const calendarData = [
   {
     date: 26,
     day: "Tues",
-    timeSlots: [{ time: "08:00" }, { time: "09:00", isSelected: true }, { time: "10:00" }],
+    timeSlots: [
+      { time: "08:00" },
+      { time: "09:00", isSelected: true },
+      { time: "10:00" },
+    ],
   },
   {
     date: 27,
@@ -27,7 +31,11 @@ export const calendarData = [
   {
     date: 30,
     day: "Sat",
-    timeSlots: [{ time: "12:00", isBooked: true }, { time: "14:00" }, { time: "15:00" }],
+    timeSlots: [
+      { time: "12:00", isBooked: true },
+      { time: "14:00" },
+      { time: "15:00" },
+    ],
   },
   {
     date: 31,
@@ -85,4 +93,3 @@ export const upcomingSchedule = {
     },
   ],
 };
-

@@ -1,12 +1,43 @@
-# React + Vite
+# Healthcare Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Healthcare Dashboard is a responsive web application designed to provide an intuitive interface for managing healthcare-related data. It features a variety of components such as a sidebar for navigation, a medical scheduler, health status cards, and more, to offer a comprehensive view of healthcare activities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Medical Scheduler**: Manage appointments and view upcoming schedules with an interactive calendar.
+- **Responsive Sidebar**: Navigate through different sections of the application with ease.
+- **Health Status Cards**: Display and monitor the health status of various aspects like Lungs, Teeth, and Bone.
+- **Activity Chart**: Visualize weekly healthcare activities with a dynamic chart.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Vite**: As the build tool for fast development.
+- **CSS**: For styling the application with a responsive design.
+- **Lucide Icons**: For enriching the UI with icons.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vomeshatukuri/healthcare-dashboard.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd healthcare-dashboard
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open the application in your browser at `http://localhost:5173`.

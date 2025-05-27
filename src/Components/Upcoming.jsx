@@ -1,15 +1,15 @@
 import "../Styles/Upcoming.css";
 
-export default function UpcomingCard({ appointment }) {
+export default function UpcomingCard({ upcoming }) {
   return (
     <div className="upcomingcard">
       <div className="upcoming_title">
-        <span className="upcoming-type" title={appointment.title}>
-          {appointment.title}
+        <span className="upcoming-type" title={upcoming.title}>
+          {upcoming.title}
         </span>
-        <span className="upcoming-time">{appointment.icon}</span>
+        <span className="upcoming-time">{upcoming.icon}</span>
       </div>
-      <div className="upcoming-doctor">{appointment.time}</div>
+      <div className="upcoming-doctor">{upcoming.time}</div>
     </div>
   );
 }

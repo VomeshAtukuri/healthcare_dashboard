@@ -1,10 +1,14 @@
-import CalendarDay from "./Calender"
-import AppointmentCard from "./AppointmentCard"
-import UpcomingCard from "./Upcoming"
-import { calendarData, appointments, upcomingSchedule } from "../data/appointments"
-import "../Styles/Medical.css"
+import CalendarDay from "./Calender";
+import AppointmentCard from "./AppointmentCard";
+import UpcomingCard from "./Upcoming";
+import {
+  calendarData,
+  appointments,
+  upcomingSchedule,
+} from "../data/appointments";
+import "../Styles/Medical.css";
 
-function MedicalScheduler(){
+function MedicalScheduler() {
   return (
     <div className="medical-scheduler">
       <div className="header">
@@ -40,8 +44,8 @@ function MedicalScheduler(){
         <div className="day-section">
           <div className="day-title">On Thursday</div>
           <div className="upcoming-appointments">
-            {upcomingSchedule.thursday.map((appointment) => (
-              <UpcomingCard key={appointment.id} appointment={appointment} />
+            {upcomingSchedule.thursday.map((upcoming) => (
+              <UpcomingCard key={upcoming.id} upcoming={upcoming} />
             ))}
           </div>
         </div>
@@ -49,15 +53,14 @@ function MedicalScheduler(){
         <div className="day-section">
           <div className="day-title">On Saturday</div>
           <div className="upcoming-appointments">
-            {upcomingSchedule.saturday.map((appointment) => (
-              <UpcomingCard key={appointment.id} appointment={appointment} />
+            {upcomingSchedule.saturday.map((upcoming) => (
+              <UpcomingCard key={upcoming.id} upcoming={upcoming} />
             ))}
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default MedicalScheduler
-
+export default MedicalScheduler;

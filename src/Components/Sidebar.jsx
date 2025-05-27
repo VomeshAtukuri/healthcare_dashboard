@@ -7,7 +7,7 @@ import {
 import "../Styles/Sidebar.css";
 import { AlignJustify, X } from "lucide-react";
 
-function Sidebar() {
+export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -71,4 +71,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+

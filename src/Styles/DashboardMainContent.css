@@ -48,10 +48,10 @@
 }
 
 .middle-section {
-  display: flex;
+  height: 60%;
   flex: 1;
-  gap: 50px;
-  height: 420px;
+  display: flex;
+  gap: 40px;
 }
 
 .anatomy-card {
