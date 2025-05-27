@@ -18,10 +18,14 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 1024px) {
+  .main-content {
+    flex-direction: column;
+    overflow: auto;
+  }  
+}
+
 @media screen and (max-width: 768px) {
-  body{
-    background-color: red;
-  }
   .app-container {
     flex-direction: column;
   }
